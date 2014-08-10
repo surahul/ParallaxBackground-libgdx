@@ -15,3 +15,14 @@ The utility has the following features:
   * It is not necessary that the texture region of this layer be full screen . You can define top bottom left and right padding of the layer. This helps you have any resolution layer, without the texture region necessarily being of the same resolution.
 * Each layer can have either Single or Repeat TileMode in x and y direction.
 * The basic ParallaxLayer is abstract , i.e. you can extend it to have your own layer logic and render it your own way. You can then render any numbr of meshes, shapes, region in your layer.
+
+Setup
+-----
+
+* Just copy the package com.rahul.libgdx.parallax and it classes (without test classes) in the src directory of your core libgdx project 
+
+Usage
+-----
+Please see the GameListener class (a test) in the com.rahul.libgdx.parallax.test package. It is really easy to use this utility. The test pretty much explains everything.
+
+Moreover all the classes are extremely well documented so you wont get lost.
