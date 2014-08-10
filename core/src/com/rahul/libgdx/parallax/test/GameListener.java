@@ -7,7 +7,6 @@ import com.badlogic.gdx.InputAdapter;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
-import com.badlogic.gdx.graphics.Texture.TextureFilter;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.graphics.g2d.TextureRegion;
@@ -16,7 +15,11 @@ import com.rahul.libgdx.parallax.ParallaxBackground;
 import com.rahul.libgdx.parallax.TextureRegionParallaxLayer;
 import com.rahul.libgdx.parallax.Utils;
 import com.rahul.libgdx.parallax.Utils.WH;
-
+/**
+ * Usage example of {@link ParallaxBackground}
+ * @author Rahul Verma
+ *
+ */
 public class GameListener extends ApplicationAdapter {
 	
 	private SpriteBatch batch;
