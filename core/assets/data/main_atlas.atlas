@@ -1,0 +1,54 @@
+
+main_atlas.png
+size: 802,994
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+buildings_a
+  rotate: false
+  xy: 2, 454
+  size: 800, 263
+  orig: 800, 263
+  offset: 0, 0
+  index: -1
+buildings_c
+  rotate: false
+  xy: 2, 2
+  size: 800, 184
+  orig: 800, 184
+  offset: 0, 0
+  index: -1
+clouds
+  rotate: false
+  xy: 2, 188
+  size: 798, 264
+  orig: 798, 264
+  offset: 0, 0
+  index: -1
+mountains_a
+  rotate: false
+  xy: 2, 719
+  size: 800, 275
+  orig: 800, 275
+  offset: 0, 0
+  index: -1
+
+main_atlas2.png
+size: 688,493
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+buildings_b
+  rotate: false
+  xy: 2, 156
+  size: 686, 337
+  orig: 686, 337
+  offset: 0, 0
+  index: -1
+mountains_b
+  rotate: false
+  xy: 2, 2
+  size: 582, 152
+  orig: 582, 152
+  offset: 0, 0
+  index: -1
