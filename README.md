@@ -26,3 +26,11 @@ Usage
 Please see the GameListener class (a test) in the com.rahul.libgdx.parallax.test package. It is really easy to use this utility. The test pretty much explains everything.
 
 Moreover all the classes are extremely well documented so you wont get lost.
+
+Contribute
+-----
+Please do contribute if you feel like adding new features or improving present code. I will actively review and accept pull requests.
+
+Developed By
+-----
+Rahul Verma
