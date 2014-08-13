@@ -28,9 +28,9 @@ public abstract class ParallaxLayer {
 	
 	
 
-	private Vector2 parallaxRatio;
-	private TileMode tileModeX = TileMode.repeat;
-	private TileMode tileModeY = TileMode.single;
+	protected Vector2 parallaxRatio;
+	protected TileMode tileModeX = TileMode.repeat;
+	protected TileMode tileModeY = TileMode.single;
 	
 	/**
 	 * returns the width of this layer. This width basically represents segment width of this layer after which it either repeats itself while rendering or just ceases to render further, depending upon the horizontal TileMode (see {@link #setTileModeX(TileMode)})

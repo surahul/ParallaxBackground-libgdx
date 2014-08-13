@@ -31,8 +31,7 @@ Moreover all the classes are extremely well documented so you wont get lost.
 
 Known Issues
 -----
-* WorldCamera zooming is not considered correctly . If one zooms out the world camera , the parallax background layers don't make up the whole screen (try zooming out using Right Ctrl key in [GameListener][5] test). Will be fixed soon.
-* Your world camera cannot enter any quadrant other than first . i.e. it fails for negative x and y. Will also get fixed soon.
+* Your world camera cannot enter any quadrant other than first . i.e. it fails for negative x and y. Will get fixed soon.
 
 Contribute
 -----
@@ -62,7 +61,7 @@ License
 
 TODO
 -----
-* WorldCamera zooming is not considered currently . If one zooms out the world camera , the parallax background layers don't make up the whole screen. Fix it.
+* ~~WorldCamera zooming is not considered currently . If one zooms out the world camera , the parallax background layers don't make up the whole screen. Fix it.~~
 * Make the code more efficient by eliminating object creation in draw loop.
 * Make the srcolling work for quadrants other than first quadrant.
 
